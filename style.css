@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    color: #ddd;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searc-h {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.searc-h:hover {
+    background-color: #4cae4c;
+}
+h1 {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.text {
+    font-size: 18px;
+    color: #000000;
+    padding:  10px;
+    text-align: center;
+    font-size: 24px;
+  
+}
+.pic {
+    background-position: center;
+    background-image: url('https://media.tenor.com/yskj0PnyEpoAAAAM/borpynino.gif');
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.text2 {
+    text-align: center;
+}
